@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\downloads\MpptDemoBoard-backups\MpptDemoBoard-2023-02-01_190113\MpptDemoBoard-backups\MpptDemoBoard-2023-02-01_190546\Prot_Circ\Prot_Circ.kicad_sch</source>
+    <date>18-02-2023 12:29:08</date>
+    <tool>Eeschema (6.99.0-5210-g1b15854da5)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Prot_Circ.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>fp:C1005_Commercial</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="Description">0402 X7R ceramic capacitor 16V 100nF TDK C1005 C 100nF Ceramic Multilayer Capacitor, 16 V dc, +125C, X7R Dielectric, +/-10% SMD</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">C1005X7R1C104K050BC</field>
+        <field name="Mouser Part Number">810-C1005X7R1C104K</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TDK/C1005X7R1C104K050BC?qs=NRhsANhppD%252BhAGOapA8QKQ%3D%3D</field>
+      </fields>
+      <libsource lib="C1005X7R1C104K050BC" part="C1005X7R1C104K050BC" description="0402 X7R ceramic capacitor 16V 100nF TDK C1005 C 100nF Ceramic Multilayer Capacitor, 16 V dc, +125C, X7R Dielectric, +/-10% SMD"/>
+      <property name="Description" value="0402 X7R ceramic capacitor 16V 100nF TDK C1005 C 100nF Ceramic Multilayer Capacitor, 16 V dc, +125C, X7R Dielectric, +/-10% SMD"/>
+      <property name="Height" value="0.55"/>
+      <property name="Mouser Part Number" value="810-C1005X7R1C104K"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TDK/C1005X7R1C104K050BC?qs=NRhsANhppD%252BhAGOapA8QKQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="TDK"/>
+      <property name="Manufacturer_Part_Number" value="C1005X7R1C104K050BC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Prot_Circ.kicad_sch"/>
+      <property name="ki_description" value="0402 X7R ceramic capacitor 16V 100nF TDK C1005 C 100nF Ceramic Multilayer Capacitor, 16 V dc, +125C, X7R Dielectric, +/-10% SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7a24674-b1ed-4dba-b91f-dc3ab021b165</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100pF</value>
+      <footprint>fp:CAPC1005X55N</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1091_C0G_ESD.pdf</datasheet>
+      <fields>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V 100pF X8R 0402 5% AEC-Q200</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">KEMET</field>
+        <field name="Manufacturer_Part_Number">C0402C101K3RACAUTO</field>
+        <field name="Mouser Part Number">80-C0402C101K3RAUTO</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/KEMET/C0402C101K3RACAUTO?qs=DuoOggApuK%2FQ6tIpLsntww%3D%3D</field>
+      </fields>
+      <libsource lib="C0402C101K3RACAUTO" part="C0402C101K3RACAUTO" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V 100pF X8R 0402 5% AEC-Q200"/>
+      <property name="Description" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V 100pF X8R 0402 5% AEC-Q200"/>
+      <property name="Height" value="0.55"/>
+      <property name="Mouser Part Number" value="80-C0402C101K3RAUTO"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/KEMET/C0402C101K3RACAUTO?qs=DuoOggApuK%2FQ6tIpLsntww%3D%3D"/>
+      <property name="Manufacturer_Name" value="KEMET"/>
+      <property name="Manufacturer_Part_Number" value="C0402C101K3RACAUTO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Prot_Circ.kicad_sch"/>
+      <property name="ki_description" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V 100pF X8R 0402 5% AEC-Q200"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c8d30d3-6dc1-40f8-b08f-df21bf6cfe54</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>fp:CAPC2012X94N</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/40/AVX_X7RDielectric_777024-1853642.pdf</datasheet>
+      <fields>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 10uF X7R 0805 10%</field>
+        <field name="Height">0.94</field>
+        <field name="Manufacturer_Name">KYOCERA</field>
+        <field name="Manufacturer_Part_Number">0805YC106KAT2A</field>
+        <field name="Mouser Part Number">581-0805YC106KAT2A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/0805YC106KAT2A?qs=3HJ2avRr9PKwMzeRMZhF2g%3D%3D</field>
+      </fields>
+      <libsource lib="0805YC106KAT2A" part="0805YC106KAT2A" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 10uF X7R 0805 10%"/>
+      <property name="Description" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 10uF X7R 0805 10%"/>
+      <property name="Height" value="0.94"/>
+      <property name="Mouser Part Number" value="581-0805YC106KAT2A"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/0805YC106KAT2A?qs=3HJ2avRr9PKwMzeRMZhF2g%3D%3D"/>
+      <property name="Manufacturer_Name" value="KYOCERA"/>
+      <property name="Manufacturer_Part_Number" value="0805YC106KAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Prot_Circ.kicad_sch"/>
+      <property name="ki_description" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 10uF X7R 0805 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03ddb527-2b95-4ee8-8f66-bf87c27efbef</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>fp:C2220_FT</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1078_X7R_FT-CAP_AUTO_SMD.pdf</datasheet>
+      <fields>
+        <field name="Description">SMD Auto X7R Flex, Ceramic, 1 uF, 10%, 200 VDC, 500 VDC, 125C, -55C, X7R, SMD, MLCC, FT-CAP, Automotive Grade, 2.5 % , 1 GOhms, 230 mg, 2220, 5.9mm, 5mm, 1.5mm, 0.7mm, 1000, 78  Weeks, 80</field>
+        <field name="Manufacturer_Name">KEMET</field>
+        <field name="Manufacturer_Part_Number">C2220X105K2RACAUTO</field>
+        <field name="Mouser Part Number">80-C2220X105K2RAUTO</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/KEMET/C2220X105K2RACAUTO?qs=1mbolxNpo8fmZ3mUaC%2FFGQ%3D%3D</field>
+      </fields>
+      <libsource lib="C2220X105K2RACAUTO" part="C2220X105K2RACAUTO" description="SMD Auto X7R Flex, Ceramic, 1 uF, 10%, 200 VDC, 500 VDC, 125C, -55C, X7R, SMD, MLCC, FT-CAP, Automotive Grade, 2.5 % , 1 GOhms, 230 mg, 2220, 5.9mm, 5mm, 1.5mm, 0.7mm, 1000, 78  Weeks, 80"/>
+      <property name="Description" value="SMD Auto X7R Flex, Ceramic, 1 uF, 10%, 200 VDC, 500 VDC, 125C, -55C, X7R, SMD, MLCC, FT-CAP, Automotive Grade, 2.5 % , 1 GOhms, 230 mg, 2220, 5.9mm, 5mm, 1.5mm, 0.7mm, 1000, 78  Weeks, 80"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="80-C2220X105K2RAUTO"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/KEMET/C2220X105K2RACAUTO?qs=1mbolxNpo8fmZ3mUaC%2FFGQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="KEMET"/>
+      <property name="Manufacturer_Part_Number" value="C2220X105K2RACAUTO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Prot_Circ.kicad_sch"/>
+      <property name="ki_description" value="SMD Auto X7R Flex, Ceramic, 1 uF, 10%, 200 VDC, 500 VDC, 125C, -55C, X7R, SMD, MLCC, FT-CAP, Automotive Grade, 2.5 % , 1 GOhms, 230 mg, 2220, 5.9mm, 5mm, 1.5mm, 0.7mm, 1000, 78  Weeks, 80"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b0302a8-9070-4fb1-a4cd-b9ae3e4302c3</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>TPS25961DRVR</value>
+      <footprint>fp:SON65P200X200X80-7N</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps25961.pdf</datasheet>
+      <fields>
+        <field name="Description">Hot Swap Voltage Controllers 2.7-V to 19-V 100-mO eFuse with overvoltage, overcurrent and short-circuit protection</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS25961DRVR</field>
+        <field name="Mouser Part Number">595-TPS25961DRVR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS25961DRVR?qs=rQFj71Wb1eWBtbDOIdq5wQ%3D%3D</field>
+      </fields>
+      <libsource lib="TPS25961DRVR" part="TPS25961DRVR" description="Hot Swap Voltage Controllers 2.7-V to 19-V 100-mO eFuse with overvoltage, overcurrent and short-circuit protection"/>
+      <property name="Description" value="Hot Swap Voltage Controllers 2.7-V to 19-V 100-mO eFuse with overvoltage, overcurrent and short-circuit protection"/>
+      <property name="Height" value="0.8"/>
+      <property name="Mouser Part Number" value="595-TPS25961DRVR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS25961DRVR?qs=rQFj71Wb1eWBtbDOIdq5wQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TPS25961DRVR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Prot_Circ.kicad_sch"/>
+      <property name="ki_description" value="Hot Swap Voltage Controllers 2.7-V to 19-V 100-mO eFuse with overvoltage, overcurrent and short-circuit protection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d392995b-925b-479c-9159-f155105e251d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>3.3V</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Prot_Circ.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e8b0cc4-4734-4334-867a-cc1996a999be</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>3.3V</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Prot_Circ.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a26e6d7-075a-4db7-a35a-98188b1910fe</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2M</value>
+      <footprint>fp:RC0603FR-072ML</footprint>
+      <libsource lib="2023-02-18_05-38-06" part="RC0603FR-072ML" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Prot_Circ.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04e66a5f-0d04-43a4-aea3-f32c268ed2c6</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>23.2k</value>
+      <footprint>fp:RC0603FR-072ML</footprint>
+      <libsource lib="2023-02-18_05-38-06" part="RC0603FR-072ML" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Prot_Circ.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78fc8cb0-9f44-4898-b70b-bf63d75433de</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>2M</value>
+      <footprint>fp:RC0603FR-072ML</footprint>
+      <libsource lib="2023-02-18_05-38-06" part="RC0603FR-072ML" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Prot_Circ.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d5bb1df-a6f8-4980-b4ce-750740827f54</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>787k</value>
+      <footprint>fp:RC0603FR-072ML</footprint>
+      <libsource lib="2023-02-18_05-38-06" part="RC0603FR-072ML" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Prot_Circ.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7115094b-75b2-40ff-969e-7003612326f7</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1.21M</value>
+      <footprint>fp:RC0603FR-072ML</footprint>
+      <libsource lib="2023-02-18_05-38-06" part="RC0603FR-072ML" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Prot_Circ.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4af45b7a-3a26-469c-9220-a79263f338cd</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DIP_x01</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin</footprint>
+      <libsource lib="Switch" part="SW_DIP_x01" description="1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Prot_Circ.kicad_sch"/>
+      <property name="ki_description" value="1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="ki_keywords" value="dip switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eae004b3-363a-4162-937b-234db0fe9a2e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0805YC106KAT2A" part="0805YC106KAT2A">
+      <description>Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 10uF X7R 0805 10%</description>
+      <docs>https://www.mouser.fr/datasheet/2/40/AVX_X7RDielectric_777024-1853642.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0805YC106KAT2A</field>
+        <field name="Footprint">CAPC2012X94N</field>
+        <field name="Datasheet">https://www.mouser.fr/datasheet/2/40/AVX_X7RDielectric_777024-1853642.pdf</field>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 10uF X7R 0805 10%</field>
+        <field name="Height">0.94</field>
+        <field name="Mouser Part Number">581-0805YC106KAT2A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/0805YC106KAT2A?qs=3HJ2avRr9PKwMzeRMZhF2g%3D%3D</field>
+        <field name="Manufacturer_Name">KYOCERA</field>
+        <field name="Manufacturer_Part_Number">0805YC106KAT2A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="2023-02-18_05-38-06" part="RC0603FR-072ML">
+      <footprints>
+        <fp>RC0603N_YAG</fp>
+        <fp>RC0603N_YAG-M</fp>
+        <fp>RC0603N_YAG-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0603FR-072ML</field>
+        <field name="Footprint">RC0603N_YAG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="C0402C101K3RACAUTO" part="C0402C101K3RACAUTO">
+      <description>Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V 100pF X8R 0402 5% AEC-Q200</description>
+      <docs>https://content.kemet.com/datasheets/KEM_C1091_C0G_ESD.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C0402C101K3RACAUTO</field>
+        <field name="Footprint">CAPC1005X55N</field>
+        <field name="Datasheet">https://content.kemet.com/datasheets/KEM_C1091_C0G_ESD.pdf</field>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V 100pF X8R 0402 5% AEC-Q200</field>
+        <field name="Height">0.55</field>
+        <field name="Mouser Part Number">80-C0402C101K3RAUTO</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/KEMET/C0402C101K3RACAUTO?qs=DuoOggApuK%2FQ6tIpLsntww%3D%3D</field>
+        <field name="Manufacturer_Name">KEMET</field>
+        <field name="Manufacturer_Part_Number">C0402C101K3RACAUTO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="C1005X7R1C104K050BC" part="C1005X7R1C104K050BC">
+      <description>0402 X7R ceramic capacitor 16V 100nF TDK C1005 C 100nF Ceramic Multilayer Capacitor, 16 V dc, +125C, X7R Dielectric, +/-10% SMD</description>
+      <docs>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C1005X7R1C104K050BC</field>
+        <field name="Footprint">C1005_Commercial</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</field>
+        <field name="Description">0402 X7R ceramic capacitor 16V 100nF TDK C1005 C 100nF Ceramic Multilayer Capacitor, 16 V dc, +125C, X7R Dielectric, +/-10% SMD</field>
+        <field name="Height">0.55</field>
+        <field name="Mouser Part Number">810-C1005X7R1C104K</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TDK/C1005X7R1C104K050BC?qs=NRhsANhppD%252BhAGOapA8QKQ%3D%3D</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">C1005X7R1C104K050BC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="C2220X105K2RACAUTO" part="C2220X105K2RACAUTO">
+      <description>SMD Auto X7R Flex, Ceramic, 1 uF, 10%, 200 VDC, 500 VDC, 125C, -55C, X7R, SMD, MLCC, FT-CAP, Automotive Grade, 2.5 % , 1 GOhms, 230 mg, 2220, 5.9mm, 5mm, 1.5mm, 0.7mm, 1000, 78  Weeks, 80</description>
+      <docs>https://content.kemet.com/datasheets/KEM_C1078_X7R_FT-CAP_AUTO_SMD.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C2220X105K2RACAUTO</field>
+        <field name="Footprint">C2220_FT</field>
+        <field name="Datasheet">https://content.kemet.com/datasheets/KEM_C1078_X7R_FT-CAP_AUTO_SMD.pdf</field>
+        <field name="Description">SMD Auto X7R Flex, Ceramic, 1 uF, 10%, 200 VDC, 500 VDC, 125C, -55C, X7R, SMD, MLCC, FT-CAP, Automotive Grade, 2.5 % , 1 GOhms, 230 mg, 2220, 5.9mm, 5mm, 1.5mm, 0.7mm, 1000, 78  Weeks, 80</field>
+        <field name="Mouser Part Number">80-C2220X105K2RAUTO</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/KEMET/C2220X105K2RACAUTO?qs=1mbolxNpo8fmZ3mUaC%2FFGQ%3D%3D</field>
+        <field name="Manufacturer_Name">KEMET</field>
+        <field name="Manufacturer_Part_Number">C2220X105K2RACAUTO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x01">
+      <description>1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW?DIP?x1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TPS25961DRVR" part="TPS25961DRVR">
+      <description>Hot Swap Voltage Controllers 2.7-V to 19-V 100-mO eFuse with overvoltage, overcurrent and short-circuit protection</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps25961.pdf</docs>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">TPS25961DRVR</field>
+        <field name="Footprint">SON65P200X200X80-7N</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps25961.pdf</field>
+        <field name="Description">Hot Swap Voltage Controllers 2.7-V to 19-V 100-mO eFuse with overvoltage, overcurrent and short-circuit protection</field>
+        <field name="Height">0.8</field>
+        <field name="Mouser Part Number">595-TPS25961DRVR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS25961DRVR?qs=rQFj71Wb1eWBtbDOIdq5wQ%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS25961DRVR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="OVLO" type="input"/>
+        <pin num="3" name="ILIM" type="output"/>
+        <pin num="4" name="GND_1" type="power_in"/>
+        <pin num="5" name="EN/UVLO" type="input"/>
+        <pin num="6" name="IN" type="power_in"/>
+        <pin num="7" name="GND_2" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0805YC106KAT2A">
+      <uri>D:\downloads\LIB_0805YC106KAT2A\0805YC106KAT2A\KiCad\0805YC106KAT2A.lib</uri>
+    </library>
+    <library logical="2023-02-18_05-38-06">
+      <uri>D:\downloads\ul_RC0603FR-072ML\KiCAD\2023-02-18_05-38-06\2023-02-18_05-38-06.lib</uri>
+    </library>
+    <library logical="C0402C101K3RACAUTO">
+      <uri>D:\downloads\100pf\C0402C101K3RACAUTO\KiCad\C0402C101K3RACAUTO.lib</uri>
+    </library>
+    <library logical="C1005X7R1C104K050BC">
+      <uri>D:\downloads\100nF\C1005X7R1C104K050BC\KiCad\C1005X7R1C104K050BC.lib</uri>
+    </library>
+    <library logical="C2220X105K2RACAUTO">
+      <uri>D:\downloads\1uF\C2220X105K2RACAUTO\KiCad\C2220X105K2RACAUTO.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.99\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.99\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="TPS25961DRVR">
+      <uri>D:\downloads\LIB_TPS25961DRVR\TPS25961DRVR\KiCad\TPS25961DRVR.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Earth">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="F1" pin="4" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="F1" pin="7" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="R4" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="R5" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(F1-EN{slash}UVLO)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="F1" pin="5" pinfunction="EN/UVLO" pintype="input"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="R5" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(F1-ILIM)">
+      <node ref="F1" pin="3" pinfunction="ILIM" pintype="output"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="4" name="Net-(F1-IN)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="F1" pin="6" pinfunction="IN" pintype="power_in"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="5" name="Net-(F1-OUT)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="F1" pin="1" pinfunction="OUT" pintype="output"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(F1-OVLO)">
+      <node ref="F1" pin="2" pinfunction="OVLO" pintype="input"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+  </nets>
+</export>
